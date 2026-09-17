@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advent Calendar</title>
+    <!-- We'll import our main SCSS in main.ts -->
+  </head>
+  <body>
+    <div id="app">
+      <!-- Main Scene Container -->
+      <main id="piazza-container" class="scene-container">
+        <!-- The background image or SVG will go here -->
+        <div class="piazza-bg"></div>
+        
+        <!-- Hotspots will be dynamically injected here by JS -->
+        <div id="hotspots-layer" class="hotspots-layer"></div>
+      </main>
+
+      <!-- Modal for Daily Content -->
+      <div id="content-modal" class="modal hidden" aria-hidden="true" role="dialog">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+          <button id="modal-close" class="modal-close-btn" aria-label="Close"></button>
+          
+          <!-- Dynamic Content Container -->
+          <div id="modal-body" class="modal-body">
+            <!-- Header for Title -->
+            <h2 id="modal-title" class="modal-title"></h2>
+            
+            <!-- Media Container (Video / Lottie / Image) -->
+            <div id="modal-media-container" class="media-container"></div>
+            
+            <!-- Text Content -->
+            <div id="modal-text" class="modal-text"></div>
+            
+            <!-- Go Deeper Button -->
+            <a id="modal-go-deeper" class="btn-primary hidden" href="#" target="_blank" rel="noopener noreferrer"></a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Toast Notification for Locked Days -->
+      <div id="toast-notification" class="toast hidden" aria-live="polite"></div>
+
+      <!-- Go Deeper Destination View -->
+      <main id="deeper-view" class="deeper-view hidden">
+        <header class="deeper-header">
+          <a href="#" class="btn-back">← <span id="btn-back-text">Back to Piazza</span></a>
+        </header>
+        <article class="deeper-content">
+          <h1 id="deeper-title" class="deeper-title"></h1>
+          <p id="deeper-scripture" class="deeper-scripture"></p>
+          <div id="deeper-devotional" class="deeper-devotional"></div>
+        </article>
+      </main>
+    </div>
+    
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

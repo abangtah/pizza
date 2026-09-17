@@ -1,0 +1,29 @@
+{
+  "startDate": "2026-12-01T00:00:00Z",
+  "days": [
+    { "day": 1, "hotspot": { "x": 10, "y": 62 }, "unlockDate": "2026-12-01", "contentType": "lottie", "mediaPath": "/assets/days/01/animation.json", "posterPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-1-lights" },
+    { "day": 2, "hotspot": { "x": 18, "y": 70 }, "unlockDate": "2026-12-02", "contentType": "video", "mediaPath": "https://www.w3schools.com/html/mov_bbb.mp4", "posterPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-2-lights" },
+    { "day": 3, "hotspot": { "x": 26, "y": 55 }, "unlockDate": "2026-12-03", "contentType": "static", "mediaPath": "/assets/days/03/static-scene.jpg", "hasGoDeeper": true, "stateUpdate": "stage-3-lights" },
+    { "day": 4, "hotspot": { "x": 34, "y": 80 }, "unlockDate": "2026-12-04", "contentType": "reflection", "mediaPath": "", "hasGoDeeper": true, "stateUpdate": "stage-4-lights" },
+    { "day": 5, "hotspot": { "x": 42, "y": 65 }, "unlockDate": "2026-12-05", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-5-lights" },
+    { "day": 6, "hotspot": { "x": 50, "y": 45 }, "unlockDate": "2026-12-06", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-6-lights" },
+    { "day": 7, "hotspot": { "x": 58, "y": 72 }, "unlockDate": "2026-12-07", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-7-lights" },
+    { "day": 8, "hotspot": { "x": 66, "y": 50 }, "unlockDate": "2026-12-08", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-8-lights" },
+    { "day": 9, "hotspot": { "x": 74, "y": 85 }, "unlockDate": "2026-12-09", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-9-lights" },
+    { "day": 10, "hotspot": { "x": 82, "y": 60 }, "unlockDate": "2026-12-10", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-10-lights" },
+    { "day": 11, "hotspot": { "x": 90, "y": 75 }, "unlockDate": "2026-12-11", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-11-lights" },
+    { "day": 12, "hotspot": { "x": 14, "y": 88 }, "unlockDate": "2026-12-12", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-12-lights" },
+    { "day": 13, "hotspot": { "x": 22, "y": 35 }, "unlockDate": "2026-12-13", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-13-lights" },
+    { "day": 14, "hotspot": { "x": 30, "y": 92 }, "unlockDate": "2026-12-14", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-14-lights" },
+    { "day": 15, "hotspot": { "x": 38, "y": 48 }, "unlockDate": "2026-12-15", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-15-lights" },
+    { "day": 16, "hotspot": { "x": 46, "y": 82 }, "unlockDate": "2026-12-16", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-16-lights" },
+    { "day": 17, "hotspot": { "x": 54, "y": 30 }, "unlockDate": "2026-12-17", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-17-lights" },
+    { "day": 18, "hotspot": { "x": 62, "y": 90 }, "unlockDate": "2026-12-18", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-18-lights" },
+    { "day": 19, "hotspot": { "x": 70, "y": 38 }, "unlockDate": "2026-12-19", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-19-lights" },
+    { "day": 20, "hotspot": { "x": 78, "y": 70 }, "unlockDate": "2026-12-20", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-20-lights" },
+    { "day": 21, "hotspot": { "x": 86, "y": 42 }, "unlockDate": "2026-12-21", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-21-lights" },
+    { "day": 22, "hotspot": { "x": 94, "y": 65 }, "unlockDate": "2026-12-22", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-22-lights" },
+    { "day": 23, "hotspot": { "x": 50, "y": 60 }, "unlockDate": "2026-12-23", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-23-lights" },
+    { "day": 24, "hotspot": { "x": 50, "y": 75 }, "unlockDate": "2026-12-24", "contentType": "static", "mediaPath": "/assets/scene/piazza-base.jpg", "hasGoDeeper": true, "stateUpdate": "stage-24-lights" }
+  ]
+}
