@@ -85,14 +85,15 @@ export class CalendarState {
   // Purely client-side logic based on user's system clock.
   public isUnlocked(dayConfig: DayConfig): boolean {
     const today = new Date();
-    // In a real scenario, compare dates. For this demo, we'll parse the date string.
     const unlockDate = new Date(dayConfig.unlockDate + 'T00:00:00');
     
-    // For demo purposes, we will unlock days 1-3 automatically, and lock day 4.
-    // Replace this with actual date logic for production:
-    // return today >= unlockDate;
+    // Allow URL override for testing (e.g. ?demo=true unlocks first 3 days)
+    const isDemo = new URLSearchParams(window.location.search).has('demo');
+    if (isDemo) {
+      return dayConfig.day <= 3;
+    }
     
-    return dayConfig.day <= 3; // Demo override
+    return today >= unlockDate;
   }
 }
 
